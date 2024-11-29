@@ -152,3 +152,183 @@ body{
     grid-column: 4/10;
     place-self: center center;
 }
+.qube1{
+    width: 90%;
+    place-self: center center;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px wheat;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+
+}
+.text9{
+    font-size: 16px;
+    font-weight: 600;
+    grid-column: 2/6;
+    grid-row: 3/6;
+    color: rgb(74, 74, 74);
+}
+.text10{
+    font-size: 14px;
+    grid-column: 2/6;
+    grid-row: 4/6;
+    color: rgb(117, 117, 117);
+}
+#P1{
+    grid-column: 4/6;
+    grid-row: 8/14;
+}
+#P2{
+    grid-column: 6/8;
+    grid-row: 8/14;
+}
+#P3{
+    grid-column: 8/10;
+    grid-row: 8/14;
+}
+#P4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.button1{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    grid-column: 6;
+    grid-row: 15;
+    place-self: center center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button2{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    grid-column: 6/8;
+    grid-row: 15;
+    place-self: center center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button3{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    grid-column: 7;
+    grid-row: 15;
+    place-self: center center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tocka{
+    height: 12px;
+    width: 12px;
+    background-color:rgb(74, 74, 74);
+    border-radius: 12px;
+}
+#W1:hover{
+    border: 1px  solid rgb(251, 173, 39);
+    .tocka{
+        background-color: rgb(251, 173, 39);
+    }
+}
+.container2{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+.text11{
+    grid-column: 4/10;
+    place-self: center center;
+    grid-row: 1;
+    font-size: 50px;
+    text-align: center;
+    color:rgb(74, 74, 74);
+}
+.text12{
+    grid-column: 4/10;
+    place-self: center center;
+    grid-row: 2;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+.search{
+    grid-row: 3/4;
+    grid-column: 6;
+    place-self: center end;
+}
+.text13{
+    color: rgb(117, 117, 117);
+    grid-column: 7;
+    font-size: 18;
+    grid-row: 3/4;
+    place-self: center start;
+}
+.arrow{
+    position: relative;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+}
+#E1{
+    grid-row: 10;
+    grid-column: 2;
+    place-self: end end;
+    rotate: 180deg;
+}
+#E2{
+    left: 20px;
+    grid-row: 10;
+    grid-column: 10;
+    place-self: end end;
+}
+.box{
+    background-color: rgb(178, 178, 178);
+    box-shadow: 0 0 10px wheat;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+#R1{
+    grid-row: 5/11;
+    grid-column: 4/6;
+}
+#R2{
+    grid-row: 5/11;
+    grid-column: 6/8;
+}
+#R3{
+    grid-row: 5/11;
+    grid-column: 8/10;
+}
+#R4{  
+    grid-row: 11/17;
+    grid-column: 4/6;
+}
+#R5{
+    grid-row: 11/17;
+    grid-column: 6/8;
+}
+#R6{
+    grid-row: 11/17;
+    grid-column: 8/10;
+}
+.text14{
+    color: white;
+    grid-column: 1/9;
+    grid-row: 3;
+    place-self: center center;
+}
+
