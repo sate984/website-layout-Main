@@ -618,7 +618,7 @@ place-self: center center;
     grid-row: 1/4;
     background-color: rgb(251, 173, 39);
     width: 100%;
-    height: 90%;
+    height: 150px;
     place-self: end;
 }
 .text28{
@@ -732,4 +732,20 @@ color: rgb(74, 74, 74);
     color: rgb(74, 74, 74);
     place-self: end center;
     font-size: 15px;
+}
+@media (max-width: px)
+{
+
+}
+@media (max-width: px)
+{
+
+}
+@media (max-width: px)
+{
+
+}
+@media (max-width: px)
+{
+
 }
