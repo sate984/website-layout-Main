@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    word-break: break-all;
+    word-break: normal;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -10,8 +11,10 @@ body{
 .contain{
     background:url(images/mgr.jpg) center no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 .MegaMain{
     display: flex;
@@ -30,7 +33,7 @@ body{
     align-items: center;
 }
 .text:hover{
-    color: rgb(255, 98, 0);
+    color: rgb(251, 173, 39);
 }
 .text{
     color: white;
@@ -54,19 +57,20 @@ body{
 }
 .line{
     width: 100%;
-    background-color: rgb(255, 98, 1);
+    background-color: rgb(251, 173, 39);
     height: 2px;
 }
 .pos{
     display: flex;
     justify-content: center;
-    margin-top:100px ;
+    position: absolute;
+    top: 218px;
     width: 100%;
     height: 400px;
-    vertical-align: middle;
     align-items: center;
 }
 .center{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -109,15 +113,15 @@ body{
     color: white;
 }
 .play{
-    position: relative;
-    top: 13%;
-    left: 5%;
     display: flex;
-    width: 180px;
-    height: 80px;
+    width: 300px;
+    height: 200px;
     align-items: center;
     gap: 0 5px;
-    justify-content: space-around;
+    position: relative;
+    top: 93%;
+    left: 98px;
+    transform: translate(0, -93%);
 }
 .text5{
     font-size: 12px;
@@ -128,6 +132,24 @@ body{
     font-size: 18px;
     font-weight: 600;
     color: white;
+}
+.scroll{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(251, 173, 39);
+    background-color: white;
+    top: 92%;
+    left: 95%;
+    transform: translate( -95% ,-92%);
+}
+.imges{
+    height: 20px;
+    width: 20px;
 }
 .container{
     width: 100vw;
@@ -733,19 +755,54 @@ color: rgb(74, 74, 74);
     place-self: end center;
     font-size: 15px;
 }
-@media (max-width: px)
+@media (max-width: 1200px)
 {
+    .text{
+        font-size: 12px;
+    }
+    .text1{
+        font-size: 12px;
+    }
+    .line{
+        position: relative;
+        bottom: 10px;
+    }
 
 }
-@media (max-width: px)
+@media (max-width:914px)
 {
-
+    .MegaMain{
+        padding: 0 50px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .text1{
+        font-size: 10px;
+    }
+    .line{
+        height: 1px;
+    }
+    .images{
+        display: none;
+    }
 }
-@media (max-width: px)
+@media (max-width: 800px)
 {
-
+    .text{
+        font-size: 9px;
+    }
+    .text1{
+        font-size: 9px;
+    }
 }
-@media (max-width: px)
+@media (max-width: 767px)
 {
-
+    .text{
+        font-size: 8px;
+    }
+    .text1{
+        font-size: 8px;
+    }
 }
+/* До 668 px
